@@ -2,4 +2,11 @@
 {% block body %}
 <h1>homepage for users</h1>
 
+{% for post in posts %}
+<h1 class="">{{post.title}}</h1>
+<img src="{{post.image.url}}" alt="{{post.title}}">
+<p>{{post.caption}}</p>
+
+{% endfor %}
+
 {% endblock %}
