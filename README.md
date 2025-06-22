@@ -1,10 +1,12 @@
 # Social
 
-This is a social media project built with Django and TailwindCSS
+This is a social media project built with Django and TailwindCSS.
 
 ## Features
 
-* User profiles
+* User authentication
+* Password change/reset
+* Profile management
 * Posting Content
 * Liking and commenting on posts
 
@@ -15,26 +17,25 @@ To set up and run this project on your local machine, follow these steps:
 
 1.  Clone the repository:
 ```
-bash
-    git clone <repository_url>
-    cd Site
+    git clone https://github.com/pradeepvrm/social.git
+    cd social
     
 ```
 2.  Install dependencies:
 ```
-bash
+
     pip install -r requirements.txt
     
 ```
 3.  Apply database migrations:
 ```
-bash
+
     python manage.py migrate
     
 ```
 4.  Run the development server:
 ```
-bash
+
     python manage.py runserver
     
 ```
